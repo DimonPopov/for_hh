@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for n in {1..1}
+do
+    count=100
+    echo -e "\nTest $n:"
+    '$count' > ./Tests/randomTest.txt
+done 
